@@ -1,16 +1,16 @@
-import { qoutes } from "./objects";
+import { quotes } from "./objects";
 import Template from "./Template";
 
-const Qoutes = () => {
-  return qoutes.map((item) => {
+const Quotes = () => {
+  return quotes.map((item) => {
     return (
       <Template
         key={crypto.randomUUID()}
-        qoute={item.qoute}
+        quote={item.quote}
         author={item.author}
       />
     );
   });
 };
 
-export default Qoutes;
+export default Quotes;

@@ -3,13 +3,15 @@ const OurRockets = () => {
   return (
     <section
       id="our-rockets"
-      className="max-w-4xl mx-auto flex flex-col justify-center items-center pt-16 pb-28ssds p-4"
+      className="mx-auto flex max-w-4xl flex-col items-center justify-center p-4 scroll-m-36"
     >
-      <h1 className="text-5xl font-bold text-slate-950 dark:text-white">Our Rockets</h1>
-      <div className="flex w-2/3 justify-center items-center gap-8 md:gap-4 flex-col sm:flex-row mx-auto">
-       
-       <Data/>
-      </div>
+      <h1 className="text-5xl font-bold text-slate-950 dark:text-white">
+        Our Rockets
+      </h1>
+      <div className="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+
+        <Data />
+      </div> 
     </section>
   );
 };

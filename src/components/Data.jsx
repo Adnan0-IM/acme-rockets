@@ -10,6 +10,7 @@ const Data = () => {
           title={item.title}
           price={item.price}
           image={item.image}
+          complement={item.complement}
           />
           
         ))}

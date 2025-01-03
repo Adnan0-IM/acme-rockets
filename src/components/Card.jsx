@@ -1,10 +1,18 @@
-const Card = ({ title, price, image }) => {
+const Card = ({ title, price, image, complement }) => {
   return (
-    <div className="mt-16 border border-gray-700 dark:border-zinc-50 rounded-3xl px-8 py-6 flex flex-col justify-center items-center bg-white dark:bg-black shadow-lg shadow-slate-400 dark:shadow-none">
-      <img src={image} alt="rocket man" width={100} height={100} />
-      <h2 className="text-3xl mt-6 text-slate-950 dark:text-white">{title}</h2>
-      <p className="text-gray-500 mt-4 text-3xl">{price}</p>
+
+    <div className="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+      
+      <img src={image} alt="rocket man" className="mb-6 w-1/2" />
+      <h2 className="text-center text-3xl text-slate-900 dark:text-white">{title}</h2>
+      <p className="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">{price}</p>
+      <p
+              className="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
+            >
+              {complement}
+            </p>
     </div>
+      
   );
 };
 

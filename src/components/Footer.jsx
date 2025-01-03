@@ -2,8 +2,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0E756D] text-white text-lg mt-32 p-4">
-      <div className="max-w-4xl flex justify-between items-center mx-auto pb-8">
+    <footer id="footer" className="mt-32 bg-[#0E756D] p-4 text-lg text-white scroll-m-44">
+      <div className="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between">
         <address>
           <h2>Acme Rocket-Powered Products, Inc.</h2>
           555 Astro Way

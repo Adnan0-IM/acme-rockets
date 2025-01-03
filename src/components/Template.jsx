@@ -1,23 +1,21 @@
 import { ImQuotesLeft } from "react-icons/im";
 import { ImQuotesRight } from "react-icons/im";
 
-
-const Template = ({qoute, author}) => {
+const Template = ({ quote, author }) => {
   return (
-      <div className="flex flex-col">
-              <blockquote className="bg-[#0C9488] dark:bg-black text-white dark:text-[#8B9AAC] px-8 py-8 rounded-3xl mt-6 text-2xl">
-                <span>
-                  <ImQuotesLeft className="text-xl text-[#4AAEA6] dark:text-[#8B9AAC]" />
-                </span>
-                <p className="px-6">{qoute}
-                </p>
-                <span>
-                  <ImQuotesRight className="text-xl text-[#4AAEA6] dark:text-[#8B9AAC] ml-auto" />
-                </span>
-              </blockquote>
-            <h3 className="text-gray-500 text-end p-2 text-xl">{author}</h3>
-            </div>
-  )
-}
+    <div className="flex flex-col">
+      <blockquote className="mt-6 rounded-3xl bg-[#0C9488] px-8 py-8 text-2xl text-white dark:bg-black dark:text-[#8B9AAC]">
+        <span>
+          <ImQuotesLeft className="text-xl text-[#4AAEA6] dark:text-[#8B9AAC]" />
+        </span>
+        <p className="px-6">{quote}</p>
+        <span>
+          <ImQuotesRight className="ml-auto text-xl text-[#4AAEA6] dark:text-[#8B9AAC]" />
+        </span>
+      </blockquote>
+      <h3 className="p-2 text-end text-xl text-gray-500">{author}</h3>
+    </div>
+  );
+};
 
-export default Template
+export default Template;
