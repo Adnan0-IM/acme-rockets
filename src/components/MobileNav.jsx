@@ -2,7 +2,7 @@ const MobileNav = ({setMenuOpen}) => {
   return (
     <nav
       id="mobile-menu"
-      className="aria-label='mobile' flex min-h-screen flex-col items-center bg-black py-8 text-4xl md:text-5xl md:hidden"
+      className="aria-label='mobile' flex min-h-screen flex-col items-center bg-white dark:bg-black text-slate-950 dark:text-indigo-300 dark:white py-8 text-4xl md:text-5xl md:hidden"
     >
       <a href="#hero" className="w-full py-6 text-center hover:opacity-90"
       onClick={() => setMenuOpen(false)}>
