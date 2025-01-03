@@ -23,9 +23,8 @@ Check out the live demo of the Acme Rockets app: [Live URL](https://precious-can
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- React
+- Tailwind CSS
 
 ## Author
 
