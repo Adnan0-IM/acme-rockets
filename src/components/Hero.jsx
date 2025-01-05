@@ -2,8 +2,8 @@ import rocketdab from "../assets/rocketdab.png";
 
 const Hero = () => {
   return (
-    <main id="hero" className="mx-auto max-w-4xl mt-20 h-[75vh] scroll-m-40">
-      <div className="mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+    <main id="hero" className="mx-auto max-w-4xl mt-20 h-[75vh] scroll-m-40 ">
+      <div className="mb-6 sm:mt-42 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
         <div className="flex flex-col items-center justify-center sm:w-5/6">
           <h1 className="text-4xl font-bold text-slate-950 sm:text-5xl dark:text-white text-center sm:text-left">
             We Boldly Go
